@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube to MP3 Helper",
+  "version": "1.0",
+  "description": "Open MP3 converter straight from YouTube video",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Convert YouTube to MP3"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}
