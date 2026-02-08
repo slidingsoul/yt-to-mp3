@@ -6,8 +6,6 @@ This extension detects whether the current tab is a valid YouTube watch page, ex
 
 > 🛠 Built with the help of ChatGPT (99%)
 
----
-
 ## ✨ Features
 
 - Automatically detects YouTube video pages
@@ -15,8 +13,6 @@ This extension detects whether the current tab is a valid YouTube watch page, ex
 - Opens the converter page: https://mp3api.ytjar.info/?id=VIDEO_ID
 - Runs automatically — no button click required
 - Prevents opening multiple converter tabs on the same page
-
----
 
 ## 📁 Project Structure
 
@@ -40,7 +36,6 @@ The main script that runs automatically on YouTube video pages. It:
 4. Opens the MP3 converter in a new tab
 5. Uses `sessionStorage` to prevent multiple tabs from opening on refresh
 
----
 
 ## 🔍 Supported URL Format
 
@@ -52,7 +47,6 @@ Examples of valid URLs:
 - https://www.youtube.com/watch?v=dQw4w9WgXcQ
 - https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=30s
 
----
 
 ## 🧪 How to Load the Extension (Temporary)
 
@@ -63,7 +57,6 @@ Examples of valid URLs:
 5. Open any YouTube video
 6. A converter tab will open automatically
 
----
 
 ## 🔐 Permissions Used
 
@@ -71,7 +64,6 @@ Examples of valid URLs:
 |-----------|---------|
 | `tabs` | Allows opening a new tab for the converter |
 
----
 
 ## ⚠️ Notes
 
