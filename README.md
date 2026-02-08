@@ -11,8 +11,6 @@ This extension detects whether the current tab is a valid YouTube watch page, ex
 - Automatically detects YouTube video pages
 - Extracts the **video ID** from the URL
 - Opens the converter page: https://mp3api.ytjar.info/?id=VIDEO_ID
-- Runs automatically — no button click required
-- Prevents opening multiple converter tabs on the same page
 
 ## 📁 Project Structure
 
@@ -26,7 +24,6 @@ This extension detects whether the current tab is a valid YouTube watch page, ex
 The core configuration file for the extension. It defines:
 - Extension name and version
 - Required permissions
-- Which pages the script should run on (YouTube watch pages)
 
 ### ⚙️ `content.js`
 The main script that runs automatically on YouTube video pages. It:
@@ -34,7 +31,6 @@ The main script that runs automatically on YouTube video pages. It:
 2. Checks if it matches a valid YouTube watch URL
 3. Extracts the video ID from the `v=` parameter
 4. Opens the MP3 converter in a new tab
-5. Uses `sessionStorage` to prevent multiple tabs from opening on refresh
 
 
 ## 🔍 Supported URL Format
@@ -55,7 +51,9 @@ Examples of valid URLs:
 3. Click **Load Temporary Add-on**
 4. Select the `manifest.json` file from your extension folder
 5. Open any YouTube video
-6. A converter tab will open automatically
+6. Open the extension
+7. Click convert
+8. On the newly opened tab, click generate, then download
 
 
 ## 🔐 Permissions Used
