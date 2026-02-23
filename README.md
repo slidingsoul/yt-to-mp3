@@ -1,6 +1,6 @@
-# YouTube to MP3 Auto Helper (Firefox Extension)
+# YouTube to MP3 Auto Helper (Chrome Extension)
 
-A simple Firefox extension that automatically opens an MP3 converter page when you visit a YouTube video.
+A simple Chrome extension that automatically opens an MP3 converter page when you visit a YouTube video.
 
 This extension detects whether the current tab is a valid YouTube watch page, extracts the **video ID**, and opens the converter in a new tab automatically.
 
@@ -46,14 +46,15 @@ Examples of valid URLs:
 
 ## 🧪 How to Load the Extension (Temporary)
 
-1. Open Firefox
-2. Go to: `about:debugging#/runtime/this-firefox`
-3. Click **Load Temporary Add-on**
-4. Select the `manifest.json` file from your extension folder
-5. Open any YouTube video
-6. Open the extension
-7. Click convert
-8. On the newly opened tab, click generate, then download
+1. Open Chrome
+2. Go to: `chrome://extensions`
+3. Enable Developer Mode
+4. Click Load Unpacked
+5. Locate repo's folder
+6. Open any YouTube video
+7. Open the extension
+8. Click convert
+9. On the newly opened tab, click generate, then download
 
 
 ## 🔐 Permissions Used

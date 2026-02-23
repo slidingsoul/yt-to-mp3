@@ -1,6 +1,8 @@
 document.getElementById("convertBtn").addEventListener("click", () => {
   const status = document.getElementById("status");
 
+  var browser = browser || chrome;
+
   browser.tabs.query({ active: true, currentWindow: true })
     .then((tabs) => {
       const currentTab = tabs[0];
